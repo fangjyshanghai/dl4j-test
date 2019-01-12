@@ -168,7 +168,7 @@ public class ObjectClassification
                 .layer(1, new OutputLayer.Builder(LossFunctions.LossFunction.NEGATIVELOGLIKELIHOOD)
                         .nOut(numOutputs)
                         .activation(Activation.SOFTMAX)
-                        .build())
+                        .build())  
                 .setInputType(InputType.convolutional(height,width,channels))
                 .build();
 
