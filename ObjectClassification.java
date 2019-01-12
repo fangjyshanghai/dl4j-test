@@ -172,7 +172,7 @@ public class ObjectClassification
                 .setInputType(InputType.convolutional(height,width,channels))
                 .build();
 
-        return config; //change to return MultiLayerConfiguration instance
+        return config; // change to return MultiLayerConfiguration instance
     }
 
     public static void main(String[] args) throws Exception
